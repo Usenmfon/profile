@@ -6,8 +6,7 @@ body {
 .todo-item {
     display: flex;
     flex-direction: row;
-}
-
-input {
-    clear: both;
+    align-items: center;
+    background-color: #2EC4B6;
+    width: 300px;
 }
