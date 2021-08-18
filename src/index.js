@@ -18,8 +18,8 @@
 
 import React from "react"
 import ReactDOM from "react-dom"
-import App from "./tasks/App"
+import './App.css'
+import App from "./hook/App"
 
 ReactDOM.render(
-  <App />, document.getElementById('root')
-);
+  <App />, document.getElementById('root'));
