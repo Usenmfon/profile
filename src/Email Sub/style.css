@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    height: 95vh;
+    font-family: Lato;
+    background: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 95vh;
+    margin-top: 5em;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo_name,
+.logo_name_footer {
+    margin-left: .6em;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.logo_name_footer {
+    font-size: 20px;
+}
+
+.logo_text {
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.paragraph {
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 18px;
+    color: #3A3A3A;
+    margin-bottom: 2.5em;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px;
+    width: 120px;
+    height: 36px;
+    background: #00B87C;
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    align-items: flex-start;
+    border-top: solid #C4C4C4;
+    width: 20rem;
+    padding-top: .5em;
+    margin-top: 5em;
+}
+
+.footer_link {
+    display: flex;
+}
+
+.footer_link a {
+    margin-left: .5em;
+    text-decoration: none;
+    color: #00B87C;
+}
+
+.footer_link_tags {
+    margin-top: 2em;
+    border-top: solid #C4C4C4;
+}
+
+.footer_link_tags ul {
+    list-style: none;
+}
+
+.footer_link_tags ul li {
+    margin-top: .5em;
+}
+
+.footer_link_tags ul li a {
+    color: #999999;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo_text {
+        font-size: 30px;
+        width: 15em;
+    }
+    .paragraph {
+        width: 25em;
+    }
+    .header,
+    main,
+    footer {
+        width: 60%;
+    }
+    button {
+        width: 150px;
+        height: 50px;
+    }
+    .button {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer_link_tags {
+        width: 80%;
+        /* border: solid red; */
+    }
+    .footer_link_tags_text {
+        display: flex;
+        justify-content: center;
+    }
+    .footer_link_tags ul li {
+        display: inline;
+        margin-left: 5em;
+    }
+}
